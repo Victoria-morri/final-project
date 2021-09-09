@@ -6,9 +6,7 @@
     },
     {
       "name": "ivysaur",
-      "id": 2,
-      "catched": true,
-      "catchDate": "Thu Sep 09 2021"
+      "id": 2
     },
     {
       "name": "venusaur",
@@ -200,9 +198,7 @@
     },
     {
       "name": "diglett",
-      "id": 50,
-      "catched": true,
-      "catchDate": "Thu Sep 09 2021"
+      "id": 50
     },
     {
       "name": "dugtrio",
