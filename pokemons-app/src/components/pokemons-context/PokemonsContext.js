@@ -7,7 +7,7 @@ export const PokemonsProvider=props=>{
     const [pokemonsState, setPokemonsState] = useState();
 
     useEffect(()=>{
-        fetch(`http://localhost:8000/pokemons/?_start=0&_end=${currentPage}`)
+        fetch(`http://localhost:8000/pokemons`) ///?_start=0&_end=${currentPage}
         .then(res => res.json())
         .then(data => setPokemonsState(data))
     },[currentPage])
@@ -31,8 +31,13 @@ export const PokemonsProvider=props=>{
     }
 
     function catchPokemon(pokemon) {
+        if(pokemon.catched){
+            pokemon.catchDate = false;
+        } else {
+            pokemon.catchDate = new Date().toDateString();
+        }
        pokemon.catched = !pokemon.catched;
-       pokemon.catchDate = new Date().toDateString();
+
        setPokemonsState([...pokemonsState])
        fetch(`http://localhost:8000/pokemons/${pokemon.id}`, {
             method: 'PUT',
@@ -43,8 +48,17 @@ export const PokemonsProvider=props=>{
         });
     }
 
+    function getPokemonsToRender() {
+        if(pokemonsState !== undefined){
+        const pokemonsToRender = [...pokemonsState].slice(0,currentPage);
+
+       return pokemonsToRender;
+        }
+        return [];
+    }
+
     return (
-    <PokemonsContext.Provider value={{currentPage, setCurrentPage, pokemonsState, catchPokemon, getPokemonById, getCatchedPokemons}}>
+    <PokemonsContext.Provider value={{getPokemonsToRender, currentPage, setCurrentPage, pokemonsState, catchPokemon, getPokemonById, getCatchedPokemons}}>
         {props.children}
     </PokemonsContext.Provider>
     );

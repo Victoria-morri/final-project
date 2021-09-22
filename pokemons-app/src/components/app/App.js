@@ -11,8 +11,8 @@ function App() {
         <PokemonsProvider>
           <Header />
             <Route path="/" exact component={Main}/>
-            <Route path="/cathed-pokemons" exact component={CatchedPokemons}/>
-            <Route path="/pokemon:id" exact component={PokemonPage}/>
+            <Route path="/cathed-pokemons" component={CatchedPokemons}/>
+            <Route path="/pokemon:id" component={PokemonPage}/>
         </PokemonsProvider>
       </BrowserRouter>
   );

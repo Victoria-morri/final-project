@@ -2,15 +2,21 @@
   "pokemons": [
     {
       "name": "bulbasaur",
-      "id": 1
+      "id": 1,
+      "catched": true,
+      "catchDate": "Wed Sep 22 2021"
     },
     {
       "name": "ivysaur",
-      "id": 2
+      "id": 2,
+      "catched": true,
+      "catchDate": "Wed Sep 22 2021"
     },
     {
       "name": "venusaur",
-      "id": 3
+      "id": 3,
+      "catched": true,
+      "catchDate": "Wed Sep 22 2021"
     },
     {
       "name": "charmander",
@@ -34,19 +40,27 @@
     },
     {
       "name": "blastoise",
-      "id": 9
+      "id": 9,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "caterpie",
-      "id": 10
+      "id": 10,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "metapod",
-      "id": 11
+      "id": 11,
+      "catchDate": "Wed Sep 22 2021",
+      "catched": true
     },
     {
       "name": "butterfree",
-      "id": 12
+      "id": 12,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "weedle",
@@ -74,11 +88,15 @@
     },
     {
       "name": "rattata",
-      "id": 19
+      "id": 19,
+      "catchDate": "Wed Sep 22 2021",
+      "catched": true
     },
     {
       "name": "raticate",
-      "id": 20
+      "id": 20,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "spearow",
@@ -86,39 +104,57 @@
     },
     {
       "name": "fearow",
-      "id": 22
+      "id": 22,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "ekans",
-      "id": 23
+      "id": 23,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "arbok",
-      "id": 24
+      "id": 24,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "pikachu",
-      "id": 25
+      "id": 25,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "raichu",
-      "id": 26
+      "id": 26,
+      "catched": false,
+      "catchDate": false
     },
     {
       "name": "sandshrew",
-      "id": 27
+      "id": 27,
+      "catched": false,
+      "catchDate": false
     },
     {
       "name": "sandslash",
-      "id": 28
+      "id": 28,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "nidoran-f",
-      "id": 29
+      "id": 29,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "nidorina",
-      "id": 30
+      "id": 30,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "nidoqueen",
@@ -126,15 +162,21 @@
     },
     {
       "name": "nidoran-m",
-      "id": 32
+      "id": 32,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "nidorino",
-      "id": 33
+      "id": 33,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "nidoking",
-      "id": 34
+      "id": 34,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "clefairy",
@@ -154,19 +196,27 @@
     },
     {
       "name": "jigglypuff",
-      "id": 39
+      "id": 39,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "wigglytuff",
-      "id": 40
+      "id": 40,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "zubat",
-      "id": 41
+      "id": 41,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "golbat",
-      "id": 42
+      "id": 42,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "oddish",

@@ -20,10 +20,10 @@ function PokemonCard (props){
                 <h5 className="card-title">{pokemon.name}</h5>
                 <button onClick={onClick}
                 type="button"
-                 className={
-                     pokemon.catched? "btn btn-primary disabled" :"btn btn-primary"
+                 className={"btn btn-primary"
+                     // pokemon.catched? "btn btn-primary disabled" :"btn btn-primary"
                      }>
-                         {pokemon.catched? `Пойман` :`Поймать`}
+                         {pokemon.catched? `Отпустить` :`Поймать`}
                 </button>
             </div>
         </div>
