@@ -4,23 +4,25 @@
       "name": "bulbasaur",
       "id": 1,
       "catched": true,
-      "catchDate": "Wed Sep 22 2021"
+      "catchDate": "Thu Sep 23 2021"
     },
     {
       "name": "ivysaur",
       "id": 2,
       "catched": true,
-      "catchDate": "Wed Sep 22 2021"
+      "catchDate": "Thu Sep 23 2021"
     },
     {
       "name": "venusaur",
       "id": 3,
-      "catched": true,
-      "catchDate": "Wed Sep 22 2021"
+      "catched": false,
+      "catchDate": false
     },
     {
       "name": "charmander",
-      "id": 4
+      "id": 4,
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "charmeleon",
@@ -47,14 +49,14 @@
     {
       "name": "caterpie",
       "id": 10,
-      "catchDate": false,
-      "catched": false
+      "catchDate": "Thu Sep 23 2021",
+      "catched": true
     },
     {
       "name": "metapod",
       "id": 11,
-      "catchDate": "Wed Sep 22 2021",
-      "catched": true
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "butterfree",
@@ -89,8 +91,8 @@
     {
       "name": "rattata",
       "id": 19,
-      "catchDate": "Wed Sep 22 2021",
-      "catched": true
+      "catchDate": false,
+      "catched": false
     },
     {
       "name": "raticate",
